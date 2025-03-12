@@ -1,0 +1,113 @@
+.breadcrumb__copyright {
+  margin-top: 60px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.breadcrumb__copyright b {
+  font-size: 1.2rem;
+  color: #666666;
+  vertical-align: middle;
+}
+
+.breadcrumb__copyright img {
+    vertical-align: middle;
+    width: 64px;
+}
+
+.datepicker table tr td.day:hover,
+.datepicker table tr td.day.focused {
+  background: #335eea;
+  cursor: pointer;
+}
+
+#sidebar .openstack-dashboard > a:focus,
+#sidebar .openstack-panel > a:focus,
+#sidebar .nav-header > a:focus {
+  background-color: #f0f8ff;
+  color: #333;
+  outline: 0;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background: #f0f8ff;
+}
+
+.dropdown:hover .fa-circle {
+  color: white;
+}
+
+.navbar-inverse {
+  background-color: #cae9ff
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #333;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #335eea;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #335eea;
+}
+
+.container-login-img {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-login {
+    width: 100%;
+    height: 100vh;
+    background: #f5f5f5;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-pic {
+    width: 60%;
+}
+
+.img {
+    background-image: url("../../../static/dashboard/img/onemind-bg.png");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+  .login-pic {
+    width: 50%;
+  }
+  .container-login {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-pic {
+    display: none;
+  }
+  .container-login {
+    width: 100%;
+  }
+}

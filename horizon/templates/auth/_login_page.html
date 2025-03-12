@@ -2,9 +2,14 @@
 {% load i18n %}
 
 {% block pre_login %}
-  <div class="container login">
-    <div class="row">
-      <div class="col-xs-11 col-sm-8 col-md-6 col-lg-5 horizontal-center">
+  <div class="container-login-img">
+    <div class="wrap-login">
+      <div class="login-pic">
+        <div class="img"></div>
+      </div>
+  <div class="container login col-xs-11 col-md-5">
+    <div class="row col-xs-12 col-md-8">
+      <div class="col-xs-12 horizontal-center">
         {{ block.super }}
 {% endblock %}
 
@@ -22,5 +27,14 @@
       {{ block.super }}
       </div>
     </div>
+  <div class="breadcrumb__copyright">
+    <b> © 2025 </b>
+    <a href="https://taikun.cloud/" target="_blank">
+      <img src="/static/dashboard/img/taikun-logo.svg">
+    </a>
   </div>
+</div>
+  </div>
+ </div>
+</div>
 {% endblock %}
