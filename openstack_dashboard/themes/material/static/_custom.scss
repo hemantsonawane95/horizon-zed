@@ -1,5 +1,5 @@
 .breadcrumb__copyright {
-  margin-top: 60px !important;
+  margin-top: 30px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,9 +16,13 @@
     width: 64px;
 }
 
+.panel-heading {
+  padding: 6px 6px;
+}
+
 .datepicker table tr td.day:hover,
 .datepicker table tr td.day.focused {
-  background: #335eea;
+  background: #223f97;
   cursor: pointer;
 }
 
@@ -39,15 +43,15 @@
 }
 
 .navbar-inverse {
-  background-color: #cae9ff
+  background-color: #223f97;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #333;
+  color: #fff;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #335eea;
+  color: #7DB840;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -74,14 +78,14 @@
 }
 
 .login-pic {
-    width: 60%;
+    width: 65%;
 }
 
 .img {
-    background-image: url("../../../static/dashboard/img/onemind-bg.png");
+    background-image: url("../../../static/dashboard/img/pidata-bg.jpg");
     background-color: #cccccc;
     height: 100vh;
-    background-position: top left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
