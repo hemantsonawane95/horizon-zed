@@ -26,10 +26,10 @@
     }
 
     &.active > a {
-      background-color: transparent;
+      background-color: #ff550d;
 
       &:focus {
-        background-color: $gray-lighter;
+        background-color: #ff550d;
       }
     }
   }
@@ -38,7 +38,7 @@
   .openstack-panel > a,
   .nav-header > a {
     &:focus {
-      background-color: $gray-lighter;
+      background-color: #ff550d;
       outline: 0;
     }
   }
