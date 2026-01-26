@@ -29,7 +29,10 @@
 @import "components/trees";
 
 .login .splash-logo {
-  width: 260px;
+  width: 180px;
+  margin: 0 !important;
+  max-width: 180px;
+  height: auto;
 }
 
 #content_body {
@@ -97,7 +100,7 @@
   svg {
     height: $navbar-height - $padding-small-horizontal*2;
     margin-top: $padding-small-horizontal;
-    display: inline-block;
+    display: flex;
   }
 }
 

@@ -8,6 +8,23 @@ html, body {
     border-bottom: 1px solid transparent;
     border-color: #ddd;
 }
+.text-center {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 40px 0;
+}
+
+.splash-brand-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #1A2024;
+    line-height: 3;
+    white-space: nowrap;
+    margin-bottom: 2px;
+}
 
 html:has(> body#splash),
 body#splash {
@@ -20,6 +37,14 @@ button#loginBtn {
 
 button#loginBtn:hover {
     background-color: #120046;
+}
+
+.navbar-brand span.brand-text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 2px;
 }
 
 .left-pattern {

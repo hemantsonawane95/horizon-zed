@@ -1,0 +1,16 @@
+/* Points to the serving path for this theme */
+$plus-jakarta-font-path: "/static/themes/material/fonts/plus-jakarta";
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('#{$plus-jakarta-font-path}/PlusJakartaSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$plus-jakarta-font-path}/PlusJakartaSans-Bold.woff2') format('woff2');
+}
